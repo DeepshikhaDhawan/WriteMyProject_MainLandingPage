@@ -74,7 +74,7 @@ const Header: React.FC = () => {
                 Join Us
               </a>
               <a 
-                href="https://forms.google.com/project-request"
+                href="https://forms.gle/pR68wz2WtGxhxWZD9"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="btn btn-secondary text-xs px-2.5 py-1.5 whitespace-nowrap"
