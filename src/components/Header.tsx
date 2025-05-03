@@ -46,7 +46,7 @@ const Header: React.FC = () => {
             {/* CTA Buttons */}
             <div className="hidden sm:flex items-center space-x-2 md:space-x-3">
               <a 
-                href="https://forms.gle/qjttTZnspAMdygKZA" 
+                href="https://forms.gle/T2b9Wr8igfYnqfkM6" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="btn btn-primary text-xs md:text-sm px-3 py-2 md:px-6 md:py-3"
@@ -66,7 +66,7 @@ const Header: React.FC = () => {
             {/* Mobile CTA Buttons */}
             <div className="flex sm:hidden items-center gap-2">
               <a 
-                href="https://forms.gle/qjttTZnspAMdygKZA"
+                href="https://forms.gle/T2b9Wr8igfYnqfkM6"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="btn btn-primary text-xs px-2.5 py-1.5 whitespace-nowrap"
