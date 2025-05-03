@@ -18,24 +18,25 @@ interface Review {
   date: string;
 }
 
+
 const reviews: Review[] = [
   {
     id: 1,
-    name: "Alex Thompson",
-    avatar: "https://i.pravatar.cc/100?img=2",
+    name: "Tushar Sonkar",
+    avatar: "https://assets.leetcode.com/users/Tushar_sonkar7/avatar_1732420157.png",
     rating: 5,
-    text: "WriteMyProject helped me with my final year engineering project. The writer understood my requirements perfectly and delivered outstanding work.",
-    project: "Mechanical Engineering",
-    date: "March 15, 2023"
+    text: "WriteMyProject helped me with my college engineering project and assignment files. The writer understood my requirements perfectly and delivered excellent work.",
+    project: "Computer Science Engineer",
+    date: "April 15, 2025"
   },
   {
     id: 2,
-    name: "Jessica Brown",
-    avatar: "https://i.pravatar.cc/100?img=4",
+    name: "Krishna",
+    avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdN55e-DbwOlEGXBuZnIaS_Iw-Ba0EtOMQHQ&s",
     rating: 5,
-    text: "I was struggling with my MBA business plan until I found WriteMyProject. Their expertise and attention to detail is exceptional.",
-    project: "Business Administration",
-    date: "April 3, 2023"
+    text: "I was struggling with my BCA business plan until I found WriteMyProject. Their expertise and attention to detail is very good.",
+    project: "Student",
+    date: "May 3, 2025"
   },
   {
     id: 3,
@@ -83,7 +84,7 @@ const ReviewsSection: React.FC = () => {
         <p className="section-subtitle text-center text-gray-600 mb-10 max-w-2xl mx-auto">
           Read testimonials from students and professionals who have trusted us with their academic projects
         </p>
-        
+
         <div className="relative w-full max-w-5xl mx-auto">
           <Carousel
             opts={{
@@ -95,8 +96,8 @@ const ReviewsSection: React.FC = () => {
             <CarouselContent className="-ml-4">
               {reviews.map((review) => (
                 <CarouselItem key={review.id} className="pl-4 sm:basis-1/2 md:basis-1/3">
-                  <div className="review-card h-full bg-white rounded-lg shadow-md p-6 border border-gray-100">
-                    <div className="flex items-center mb-4">
+                  <div className="h-auto bg-white rounded-lg shadow-lg p-5 border border-gray-300 hover:scale-105 transition-transform duration-300">
+                    <div className="flex items-center mb-3">
                       <img 
                         src={review.avatar} 
                         alt={review.name} 
@@ -107,8 +108,8 @@ const ReviewsSection: React.FC = () => {
                         <p className="text-sm text-gray-500">{review.project}</p>
                       </div>
                     </div>
-                    
-                    <div className="mb-3 flex">
+
+                    <div className="mb-2 flex">
                       {[...Array(5)].map((_, i) => (
                         <svg 
                           key={i} 
@@ -120,13 +121,14 @@ const ReviewsSection: React.FC = () => {
                         </svg>
                       ))}
                     </div>
-                    
-                    <p className="text-gray-600 mb-3">"{review.text}"</p>
-                    <p className="text-xs text-gray-400 mt-auto">{review.date}</p>
+
+                    <p className="text-gray-700 mb-2">"{review.text}"</p>
+                    <p className="text-xs text-gray-400">{review.date}</p>
                   </div>
                 </CarouselItem>
               ))}
             </CarouselContent>
+
             <div className="hidden md:block">
               <CarouselPrevious className="left-0" />
               <CarouselNext className="right-0" />
