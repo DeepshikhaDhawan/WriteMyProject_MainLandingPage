@@ -26,7 +26,7 @@ const Navigation: React.FC<NavigationProps> = ({ isOpen, onClose }) => {
   const links = [
     { name: 'Home', href: '#' },
     { name: 'About Us', href: '#' },
-    { name: 'Join Us as Writer', href: 'https://forms.gle/MPGr4Cy5LcdjNkWf9' },
+    { name: 'Join Us as Writer', href: 'https://forms.gle/T2b9Wr8igfYnqfkM6' },
     { name: 'Reviews', href: '#reviews' },
     { name: 'Top Writers', href: '#writers' },
     { name: 'Contact Us', href: '#' },
@@ -82,7 +82,7 @@ const Navigation: React.FC<NavigationProps> = ({ isOpen, onClose }) => {
         <div className="absolute bottom-0 left-0 w-full p-6 border-t">
           <div className="flex flex-col space-y-3">
             <a 
-              href="https://forms.gle/qjttTZnspAMdygKZA" 
+              href="https://forms.gle/T2b9Wr8igfYnqfkM6" 
               className="btn btn-primary text-center"
               onClick={onClose}
             >
