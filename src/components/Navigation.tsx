@@ -89,7 +89,7 @@ const Navigation: React.FC<NavigationProps> = ({ isOpen, onClose }) => {
               Join Us as a Writer
             </a>
             <a 
-              href="https://forms.gle/PrwcnBDY9mMW5qi86"
+              href="https://forms.gle/584aCwzxi6d1batE7"
               className="btn btn-secondary text-center"
               onClick={onClose}
             >
