@@ -37,7 +37,7 @@ const reviews: Review[] = [
     text: "WriteMyProject helped me with my college engineering project and assignment files. The writer understood my requirements perfectly and delivered excellent work.",
     project: "Computer Science Engineer",
     date: "February 15, 2025"
-  }
+  },
   {
     id: 3,
     name: "Ratnish",
