@@ -63,7 +63,7 @@ const HeroSection: React.FC = () => {
             },
             {
               title: "100% Original",
-              description: "Plagiarism-free content with proper citations and references",
+              description: "Properly hand written by our Best writers",
               icon: "✅"
             }
           ].map((feature, index) => (
