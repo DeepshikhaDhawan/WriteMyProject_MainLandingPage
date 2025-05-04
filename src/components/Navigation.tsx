@@ -29,7 +29,7 @@ const Navigation: React.FC<NavigationProps> = ({ isOpen, onClose }) => {
     { name: 'Join Us as Writer', href: 'https://forms.gle/T2b9Wr8igfYnqfkM6' },
     { name: 'Reviews', href: '#reviews' },
     { name: 'Top Writers', href: '#writers' },
-    { name: 'Contact Us', href: '#' },
+    { name: 'Contact Us- writemyproject47@gmail.com', href: '#' },
   ];
 
   if (!mounted) return null;
@@ -93,7 +93,7 @@ const Navigation: React.FC<NavigationProps> = ({ isOpen, onClose }) => {
               className="btn btn-secondary text-center"
               onClick={onClose}
             >
-              Make Your File Now
+              Make Project Now
             </a>
           </div>
         </div>
