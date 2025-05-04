@@ -22,57 +22,57 @@ interface Review {
 const reviews: Review[] = [
   {
     id: 1,
+    name: "Krishna",
+    avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdN55e-DbwOlEGXBuZnIaS_Iw-Ba0EtOMQHQ&s",
+    rating: 5,
+    text: "I was struggling with my BCA practical files until I found WriteMyProject. Their expertise and attention to detail is very good.",
+    project: "Student",
+    date: "January 3, 2025"
+  },
+  {
+    id: 2,
     name: "Tushar Sonkar",
     avatar: "https://assets.leetcode.com/users/Tushar_sonkar7/avatar_1732420157.png",
     rating: 5,
     text: "WriteMyProject helped me with my college engineering project and assignment files. The writer understood my requirements perfectly and delivered excellent work.",
     project: "Computer Science Engineer",
-    date: "April 15, 2025"
-  },
-  {
-    id: 2,
-    name: "Krishna",
-    avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdN55e-DbwOlEGXBuZnIaS_Iw-Ba0EtOMQHQ&s",
-    rating: 5,
-    text: "I was struggling with my BCA business plan until I found WriteMyProject. Their expertise and attention to detail is very good.",
-    project: "Student",
-    date: "May 3, 2025"
-  },
+    date: "February 15, 2025"
+  }
   {
     id: 3,
-    name: "David Wilson",
-    avatar: "https://i.pravatar.cc/100?img=6",
+    name: "Ratnish",
+    avatar: "https://i.pinimg.com/736x/d3/43/05/d34305e1101440fb5b47a6a92c5b3126.jpg",
     rating: 4,
     text: "Great service for my research paper. The writer was knowledgeable and responsive throughout the process.",
-    project: "Psychology Research",
-    date: "February 22, 2023"
+    project: "Physics Practical",
+    date: "February 22, 2025"
   },
   {
     id: 4,
-    name: "Emma Roberts",
-    avatar: "https://i.pravatar.cc/100?img=8",
+    name: "Sakshi Kaur",
+    avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH4RDO5OIkRyoVZpao-A_vYBLUaBDNix71v4tAm9mtyfpCERRlBj6V_rXB0DuOemakzBg&usqp=CAU",
     rating: 5,
-    text: "I needed help with a complex coding project. The writer not only completed it perfectly but also explained the code which helped me understand it better.",
-    project: "Computer Science",
-    date: "May 7, 2023"
+    text: "I needed help with my files. The writer not only completed it perfectly but also written my files, Very Helpful Thankyou.",
+    project: "Physical Education Files",
+    date: "March 7, 2025"
   },
   {
     id: 5,
-    name: "Michael Chen",
-    avatar: "https://i.pravatar.cc/100?img=10",
+    name: "Rohan Singh",
+    avatar: "https://i.pinimg.com/736x/2b/cb/62/2bcb62b2dd90d553d6b9fe55db19ac1c.jpg",
     rating: 5,
-    text: "My literature review was professionally written and thoroughly researched. I'm extremely satisfied with the quality.",
-    project: "English Literature",
-    date: "April 19, 2023"
+    text: "My Science Practical Files are very well done by WriteMyProject. I'm extremely satisfied with the quality.",
+    project: "Science Practical Files",
+    date: "April 19, 2025"
   },
   {
     id: 6,
-    name: "Sarah Johnson",
-    avatar: "https://i.pravatar.cc/100?img=12",
+    name: "Harshit Mehta",
+    avatar: "https://as2.ftcdn.net/jpg/03/56/68/69/500_F_356686990_E053qVSy8R6htmkH8JpwG2AGHDQX8ujC.jpg",
     rating: 5,
-    text: "The writer assigned to my nursing case study had extensive knowledge in healthcare. The paper exceeded my expectations.",
-    project: "Nursing",
-    date: "March 30, 2023"
+    text: "The writer assigned to my Research papers are very well. The work quality exceeded my expectations.",
+    project: "IT Engineer",
+    date: "May 30, 2025"
   }
 ];
 
@@ -80,7 +80,7 @@ const ReviewsSection: React.FC = () => {
   return (
     <section id="reviews" className="section bg-white py-16">
       <div className="container mx-auto px-4">
-        <h2 className="section-title text-3xl font-bold text-center mb-3">What Our Customers Say</h2>
+        <h2 className="section-title text-3xl font-bold text-center mb-3">What Our Customers Say...</h2>
         <p className="section-subtitle text-center text-gray-600 mb-10 max-w-2xl mx-auto">
           Read testimonials from students and professionals who have trusted us with their academic projects
         </p>
