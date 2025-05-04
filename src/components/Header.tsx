@@ -37,7 +37,7 @@ const Header: React.FC = () => {
             
             {/* Logo */}
             <div className="flex items-center">
-              <div className="w-9 h-9 md:w-7 md:h-7 rounded-full bg-gradient-to-tr from-primary-600 to-secondary-600 flex items-center justify-center text-white font-bold mr-1">
+              <div className="w-9 h-9 md:w-5 md:h-5 rounded-full bg-gradient-to-tr from-primary-600 to-secondary-600 flex items-center justify-center text-white font-bold mr-1">
               𝒘
               </div>
               <a href="#" className="text-base md:text-xl font-bold font-poppins">WriteMyProject</a>
