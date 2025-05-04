@@ -125,7 +125,7 @@ const ReviewsSection: React.FC = () => {
                     <p className="text-gray-700 mb-2">"{review.text}"</p>
                     <p className="text-xs text-gray-400">{review.date}</p>
                   </div>
-                </CarouselItem>
+                </CarouselItem>  
               ))}
             </CarouselContent>
 
